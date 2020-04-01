@@ -1,5 +1,5 @@
 {
-    "name": "productivv-tio/companies-house-sdk",
+    "name": "productivv-io/companies-house-sdk",
     "description": "PHP SDK for UK Companies House API",
     "type": "library",
     "require": {
