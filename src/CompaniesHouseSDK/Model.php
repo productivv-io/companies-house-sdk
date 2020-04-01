@@ -13,11 +13,11 @@ abstract class Model
         $this->client = new CompaniesHouse($apiKey);
     }
 
-    public function next() : self
-    {
-
-        return $this;
-    }
+    // public function next() : self
+    // {
+    //     $this->client->get();
+    //     return $this;
+    // }
 
     public function __set(string $name, $value) : self
     {

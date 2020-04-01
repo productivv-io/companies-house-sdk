@@ -1,6 +1,7 @@
 {
     "name": "productivv-io/companies-house-sdk",
     "description": "PHP SDK for UK Companies House API",
+    "license": "MIT",
     "type": "library",
     "require": {
         "php": "^7.1.3",
