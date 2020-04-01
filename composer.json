@@ -1,0 +1,24 @@
+{
+    "name": "productivv-tio/companies-house-sdk",
+    "description": "PHP SDK for UK Companies House API",
+    "type": "library",
+    "require": {
+        "php": "^7.1.3",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "authors": [
+        {
+            "name": "Dean Whitehouse",
+            "email": "dean@productivv.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Productivv\\CompaniesHouseSDK\\": "src/CompaniesHouseSDK/"
+        }
+    },
+    "minimum-stability": "stable"
+}
